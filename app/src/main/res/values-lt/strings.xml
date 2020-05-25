@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidLabs</string>
-    <string name="hello_message">Labas Pasauli!</string>
-    <string name="ButtonText">Paspausk mane!</string>
+    <string name="app_name">Androido Laboratorinis 2</string>
+    <string name="toast_message">Daugiau informacijos</string>
+    <string name="Look_at_Top">Paziurek i mano GUI</string>
+    <string name="Click_Button">PASPAUSK CIA</string>
+    <string name="Check_Box">Stebek sita funkcija</string>
+    <string name="On_Off">Isjungti ir Ijungti</string>
+    <string name="Edit_Hint">Rasyk Cia</string>
+    <string name="hello_message" />
+    <string name="ButtonText" />
 </resources>

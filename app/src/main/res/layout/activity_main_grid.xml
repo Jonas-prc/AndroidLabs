@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:columnCount="2"
+    android:rowCount="4">
+
+    <TextView
+        android:id="@string/Look_at_Top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:textSize="30sp"></TextView>
+
+    <Button
+        android:id="@string/Click_Button"
+        android:layout_width="104dp"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_Weight="1"
+        android:layout_gravity="fill"
+        android:onClick="displayToastMsg"></Button>
+
+    <CheckBox
+        android:id="@string/Check_Box"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="fill"
+        android:layout_weight="1" ></CheckBox>
+
+        <ImageButton
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:src="@drawable/flag"></ImageButton>
+
+        <Switch
+            android:id="@string/On_Off"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_gravity="fill"
+            android:layout_weight="1"></Switch>
+
+
+    <EditText
+        android:hint="@string/Edit_Hint"
+        android:inputType="textPersonName|textCapWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        ></EditText>
+</GridLayout>

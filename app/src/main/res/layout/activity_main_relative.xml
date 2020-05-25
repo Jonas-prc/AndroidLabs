@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@string/Look_at_Top"
+        android:textSize="30dp"
+        android:layout_alignParentLeft="true"
+        ></TextView>
+
+        <Button
+            android:id="@string/Click_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/@string/Look_at_Top"
+            android:onClick="displayToastMsg"
+            tools:ignore="UnknownId"></Button>
+
+        <CheckBox
+            android:id="@string/Check_Box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           ></CheckBox>
+
+        <ImageButton
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flag"></ImageButton>
+
+        <Switch
+            android:id="@string/On_Off"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></Switch>
+
+    <EditText
+        android:hint="@string/Edit_Hint"
+        android:inputType="textPersonName|textCapWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></EditText>
+
+</RelativeLayout>
